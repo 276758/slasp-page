@@ -52,8 +52,8 @@ Grid
     box-sizing: border-box;
 }
 body{
-    background-color: #0d0002;
-    background-image:url("img/sunset.jpg");
+    background-color: #efebe0;
+    background-image:url("img/elegant\ bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: top;
@@ -75,6 +75,7 @@ body{
 }
 .profile{
     border-radius: 50%;
+    border:1.5px dotted #efebe0;
     clear: right;
     float:right;
     height: 75px;
@@ -90,7 +91,7 @@ typography
 h1, p{
    color: #ffffff;
    margin-bottom: 22px;
-   font-family: sans-serif;
+   font-family: birds of;
 }
 h1{
    text-shadow: 2px 2px #000000;
@@ -101,9 +102,9 @@ h1{
 p{
    clear: both;
    color: #f1f1f1;
-   font-size: 14px;
+   font-size: 20px;
    line-height: 22px;
-}
+   font-family: "Cormorant Garamond", serif;}
 /*
 =================================================
 footer
